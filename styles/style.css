@@ -2,15 +2,13 @@
 
 body{
     margin: 0;
-    color:white;
     font-family: 'Raleway', sans-serif;
-    line-height:2.3em;
     background-image:url('/images/dark-honeycomb.png');
 }
 
 .our-content{
     margin:auto;
-    max-width: 600px;
+    max-width: 700px;
 
 }
 
