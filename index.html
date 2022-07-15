@@ -4,76 +4,50 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jiuk's website</title>
+        <link href="/styles/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <title>My Blog</title>
     </head>
     <body>
-        <h1>Programming Language</h1>
-        <p>Jiuk, is an epic developer</p>
-        <p>Lorem <a href="http://www.google.com" target="_blank">ipsum,</a> dolor sit amet consectetur adipisicing elit. 
-            Harum dolorem dicta totam sed vitae praesentium nihil nobis! 
-            Repellendus ad, animi qui sequi ducimus voluptatum mollitia eius possimus quo! Quod, a?</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CE0OQmKAY9A" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
-        <br />
-        <br />
-        <img width='500' height='500' src="https://images.unsplash.com/photo-1615245579921-3cbece62cb4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="chess board image">
-        <br />
-        <a href="https://unsplash.com/" target="_blank">Unsplash.com</a>
-        <!-- unordered list -->
-        <hr>
-        <ul>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>PHP</li>
-            
-        </ul>
-        <ol>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>PHP</li>
-            
-        </ol>
-        <hr>
-        <br />
-        <form action="/" method="GET">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name">
-            </div>
-            <div>
-                <label for="email">email:</label>
-                <input type="email" name="email">
-            </div>
-            <input type="submit" value="click me">
-        </form>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Age</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Jiuk</th>
-                    <th>dfjdjd@vfjfj.com</th>
-                    <th>djfjfie</th>
-                </tr>
+        <div class="navigation">
+            <ul>
+                <li><a class="main-logo" href="#home"><i class="bi bi-vinyl-fill"></i> Jiuk</a></li>
+                <li><a href="#news">Courses</a></li>
+                <li><a href="#contact">Hire me</a></li>
+            </ul>
+        </div>
+        <div class="our-content">
+            <h1>Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Odio corrupti dolores 
+                blanditiis itaque eveniet, excepturi eum 
+                minus tenetur tempora consequuntur officiis 
+                sapiente voluptate, saepe quo non sed eaque 
+                laudantium ad?</h1>
 
-            </tbody>
-        </table>
-        <label for="cars">Choose a car:</label>
+            <img src="https://images.unsplash.com/photo-1546874177-9e664107314e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="Seoul, South Korea" width="600px" height="400px">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Voluptatibus tenetur nobis molestias provident veritatis 
+                asperiores, nisi quaerat eaque quos saepe consectetur, 
+                illo ratione laudantium repellendus officia repudiandae 
+                facilis neque dolorum!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Voluptatibus tenetur nobis molestias provident veritatis 
+                    asperiores, nisi quaerat eaque quos saepe consectetur, 
+                    illo ratione laudantium repellendus officia repudiandae 
+                    facilis neque dolorum!</p>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Animi dicta, sit autem nihil repellendus doloribus iure, 
+                error, deleniti minus corporis blanditiis similique voluptatibus 
+                pariatur quo exercitationem atque ratione. Id, sit.
+            </h2>
+            <form action="">
+                <input type="email" placeholder="email address">
+                <button type="submit">Yes. Gimme!</button>
+            </form>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
-        <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        
     </body>
 </html>
