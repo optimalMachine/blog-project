@@ -1,0 +1,31 @@
+.container {
+    border: 5px solid black;
+}
+
+.container-title{
+    display:flex;
+    justify-content: center;
+}
+
+.container-button{
+    border: 1px solid blue;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    
+}
+
+.container-cats{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-cats img {
+    padding-top:10px;
+    -webkit-box-shadow: -37px 50px 59px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -37px 50px 59px -11px rgba(0,0,0,0.75);
+    box-shadow: -37px 50px 59px -11px rgba(0,0,0,0.75);
+}
+
