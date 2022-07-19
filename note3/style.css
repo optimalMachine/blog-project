@@ -3,7 +3,7 @@
 body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    background-image:url('./note3/images/dark-honeycomb.png') repeat;
+    background-image: url("./images/dark-honeycomb.png");
 }
 
 .our-content{
